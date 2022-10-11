@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body{
+margin: 0px;
+padding: 0px;
+background: url("imgs/apple-256261_1920.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+width: 100vw;
+animation:  slidingimg 20s infinite;
+font-family:'Roboto', sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+flex-wrap: wrap;
+
+}
+
+
+
+@keyframes slidingimg {
+    25%{
+        background: url('imgs/apple-256261_1920.jpg') no-repeat;
+        background-position: center;
+    background-size: cover;
+    }
+
+    50%{
+        background: url('imgs/azalea-1307644_1920.jpg') no-repeat;
+        background-position: center;
+    background-size: cover;
+    }
+    75%{
+        background: url('imgs/daisy-5009533_1920.jpg') no-repeat;
+        background-position: center;
+    background-size: cover;
+    }
+100%{
+        background: url('imgs/stones-3364325_1920.jpg') no-repeat;
+        background-position: center;
+    background-size: cover;   
+    }
+    
+}
+
+.container{
+
+    /* margin:   190px auto; */
+    height: 45%;
+    width: 50%;
+    background-color: rgb(240, 229, 229,0.8);
+    z-index: 1;
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 20px;
+}
+
+.heading{
+    width: 50%;
+    height: 10%;
+    margin: 12px 0px;
+    background:none;
+    z-index: 1;
+    padding: 12px;
+    border-radius: 12px;
+    color: azure;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bolder;
+
+}
+
+.btn{
+    margin-top: 4rem;
+    width: 6rem;
+    padding: 0.5rem;
+    border-radius: 12px;
+    border: none;
+    background-color: azure;
+
+
+
+}
+
+.Quotes{
+    font-size: 1.2rem;
+    padding: 12px;
+    margin-top: 9px;
+    font-weight: bold;
+}
+
+.author{
+    padding: 12px;
+    margin-top: 9px;
+    font-size: 0.7rem;
+    font-weight: lighter;
+    margin-top: 12px;
+}
+
+
+
+.btn:hover{
+    margin-top: 4rem;
+    background-color: rgb(186, 192, 192);
+    color: azure;
+}
+
+.btn:active{
+    background-color: rgb(41, 45, 45);
+    color: azure;
+}
